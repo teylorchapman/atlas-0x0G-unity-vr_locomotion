@@ -1,178 +1,518 @@
 fileFormatVersion: 2
 guid: 2dda0152958e830478f5dcc8fa939fbe
 ModelImporter:
-  serializedVersion: 22
-  fileIDToRecycleName:
-    100000: //RootNode
-    100002: CATRigHub001
-    100004: CATRigHub002
-    100006: CATRigHub003
-    100008: CATRigHub003Bone001
-    100010: CATRigHub003Bone002
-    100012: CATRigLArm1
-    100014: CATRigLArm2
-    100016: CATRigLArmCollarbone
-    100018: CATRigLArmDigit11
-    100020: CATRigLArmDigit12
-    100022: CATRigLArmDigit13
-    100024: CATRigLArmDigit21
-    100026: CATRigLArmDigit22
-    100028: CATRigLArmDigit23
-    100030: CATRigLArmDigit31
-    100032: CATRigLArmDigit32
-    100034: CATRigLArmDigit33
-    100036: CATRigLArmDigit41
-    100038: CATRigLArmDigit42
-    100040: CATRigLArmDigit43
-    100042: CATRigLArmDigit51
-    100044: CATRigLArmDigit52
-    100046: CATRigLArmDigit53
-    100048: CATRigLArmPalm
-    100050: CATRigLLeg1
-    100052: CATRigLLeg2
-    100054: CATRigLLegAnkle
-    100056: CATRigLLegDigit11
-    100058: CATRigLLegPlatform
-    100060: CATRigRArm1
-    100062: CATRigRArm2
-    100064: CATRigRArmCollarbone
-    100066: CATRigRArmDigit11
-    100068: CATRigRArmDigit12
-    100070: CATRigRArmDigit13
-    100072: CATRigRArmDigit21
-    100074: CATRigRArmDigit22
-    100076: CATRigRArmDigit23
-    100078: CATRigRArmDigit31
-    100080: CATRigRArmDigit32
-    100082: CATRigRArmDigit33
-    100084: CATRigRArmDigit41
-    100086: CATRigRArmDigit42
-    100088: CATRigRArmDigit43
-    100090: CATRigRArmDigit51
-    100092: CATRigRArmDigit52
-    100094: CATRigRArmDigit53
-    100096: CATRigRArmPalm
-    100098: CATRigRLeg1
-    100100: CATRigRLeg2
-    100102: CATRigRLegAnkle
-    100104: CATRigRLegDigit11
-    100106: CATRigRLegPlatform
-    100108: CATRigSpine
-    100110: CATRigSpine1
-    100112: CATRigSpine2
-    100114: Character001
-    100116: Character002
-    100118: z 3 body LOD0
-    100120: z 3 body LOD1
-    100122: z 3 body LOD2
-    100124: z3 boots LOD0
-    100126: z3 boots LOD1
-    100128: z3 boots LOD2
-    100130: z3 clothes LOD0
-    100132: z3 clothes LOD1
-    100134: z3 clothes LOD2
-    100136: z3 knitted hat LOD0
-    100138: z3 knitted hat LOD1
-    100140: z3 knitted hat LOD2
-    400000: //RootNode
-    400002: CATRigHub001
-    400004: CATRigHub002
-    400006: CATRigHub003
-    400008: CATRigHub003Bone001
-    400010: CATRigHub003Bone002
-    400012: CATRigLArm1
-    400014: CATRigLArm2
-    400016: CATRigLArmCollarbone
-    400018: CATRigLArmDigit11
-    400020: CATRigLArmDigit12
-    400022: CATRigLArmDigit13
-    400024: CATRigLArmDigit21
-    400026: CATRigLArmDigit22
-    400028: CATRigLArmDigit23
-    400030: CATRigLArmDigit31
-    400032: CATRigLArmDigit32
-    400034: CATRigLArmDigit33
-    400036: CATRigLArmDigit41
-    400038: CATRigLArmDigit42
-    400040: CATRigLArmDigit43
-    400042: CATRigLArmDigit51
-    400044: CATRigLArmDigit52
-    400046: CATRigLArmDigit53
-    400048: CATRigLArmPalm
-    400050: CATRigLLeg1
-    400052: CATRigLLeg2
-    400054: CATRigLLegAnkle
-    400056: CATRigLLegDigit11
-    400058: CATRigLLegPlatform
-    400060: CATRigRArm1
-    400062: CATRigRArm2
-    400064: CATRigRArmCollarbone
-    400066: CATRigRArmDigit11
-    400068: CATRigRArmDigit12
-    400070: CATRigRArmDigit13
-    400072: CATRigRArmDigit21
-    400074: CATRigRArmDigit22
-    400076: CATRigRArmDigit23
-    400078: CATRigRArmDigit31
-    400080: CATRigRArmDigit32
-    400082: CATRigRArmDigit33
-    400084: CATRigRArmDigit41
-    400086: CATRigRArmDigit42
-    400088: CATRigRArmDigit43
-    400090: CATRigRArmDigit51
-    400092: CATRigRArmDigit52
-    400094: CATRigRArmDigit53
-    400096: CATRigRArmPalm
-    400098: CATRigRLeg1
-    400100: CATRigRLeg2
-    400102: CATRigRLegAnkle
-    400104: CATRigRLegDigit11
-    400106: CATRigRLegPlatform
-    400108: CATRigSpine
-    400110: CATRigSpine1
-    400112: CATRigSpine2
-    400114: Character001
-    400116: Character002
-    400118: z 3 body LOD0
-    400120: z 3 body LOD1
-    400122: z 3 body LOD2
-    400124: z3 boots LOD0
-    400126: z3 boots LOD1
-    400128: z3 boots LOD2
-    400130: z3 clothes LOD0
-    400132: z3 clothes LOD1
-    400134: z3 clothes LOD2
-    400136: z3 knitted hat LOD0
-    400138: z3 knitted hat LOD1
-    400140: z3 knitted hat LOD2
-    2100000: z3 clothes
-    2100002: z3 body
-    4300000: z3 boots LOD0
-    4300002: z3 clothes LOD0
-    4300004: z3 knitted hat LOD0
-    4300006: z 3 body LOD0
-    4300008: z3 clothes LOD1
-    4300010: z3 clothes LOD2
-    4300012: z3 boots LOD1
-    4300014: z3 boots LOD2
-    4300016: z3 knitted hat LOD1
-    4300018: z3 knitted hat LOD2
-    4300020: z 3 body LOD1
-    4300022: z 3 body LOD2
-    7400000: Take 001
-    9500000: //RootNode
-    13700000: z 3 body LOD0
-    13700002: z 3 body LOD1
-    13700004: z 3 body LOD2
-    13700006: z3 boots LOD0
-    13700008: z3 boots LOD1
-    13700010: z3 boots LOD2
-    13700012: z3 clothes LOD0
-    13700014: z3 clothes LOD1
-    13700016: z3 clothes LOD2
-    13700018: z3 knitted hat LOD0
-    13700020: z3 knitted hat LOD1
-    13700022: z3 knitted hat LOD2
+  serializedVersion: 22200
+  internalIDToNameTable:
+  - first:
+      1: 100000
+    second: //RootNode
+  - first:
+      1: 100002
+    second: CATRigHub001
+  - first:
+      1: 100004
+    second: CATRigHub002
+  - first:
+      1: 100006
+    second: CATRigHub003
+  - first:
+      1: 100008
+    second: CATRigHub003Bone001
+  - first:
+      1: 100010
+    second: CATRigHub003Bone002
+  - first:
+      1: 100012
+    second: CATRigLArm1
+  - first:
+      1: 100014
+    second: CATRigLArm2
+  - first:
+      1: 100016
+    second: CATRigLArmCollarbone
+  - first:
+      1: 100018
+    second: CATRigLArmDigit11
+  - first:
+      1: 100020
+    second: CATRigLArmDigit12
+  - first:
+      1: 100022
+    second: CATRigLArmDigit13
+  - first:
+      1: 100024
+    second: CATRigLArmDigit21
+  - first:
+      1: 100026
+    second: CATRigLArmDigit22
+  - first:
+      1: 100028
+    second: CATRigLArmDigit23
+  - first:
+      1: 100030
+    second: CATRigLArmDigit31
+  - first:
+      1: 100032
+    second: CATRigLArmDigit32
+  - first:
+      1: 100034
+    second: CATRigLArmDigit33
+  - first:
+      1: 100036
+    second: CATRigLArmDigit41
+  - first:
+      1: 100038
+    second: CATRigLArmDigit42
+  - first:
+      1: 100040
+    second: CATRigLArmDigit43
+  - first:
+      1: 100042
+    second: CATRigLArmDigit51
+  - first:
+      1: 100044
+    second: CATRigLArmDigit52
+  - first:
+      1: 100046
+    second: CATRigLArmDigit53
+  - first:
+      1: 100048
+    second: CATRigLArmPalm
+  - first:
+      1: 100050
+    second: CATRigLLeg1
+  - first:
+      1: 100052
+    second: CATRigLLeg2
+  - first:
+      1: 100054
+    second: CATRigLLegAnkle
+  - first:
+      1: 100056
+    second: CATRigLLegDigit11
+  - first:
+      1: 100058
+    second: CATRigLLegPlatform
+  - first:
+      1: 100060
+    second: CATRigRArm1
+  - first:
+      1: 100062
+    second: CATRigRArm2
+  - first:
+      1: 100064
+    second: CATRigRArmCollarbone
+  - first:
+      1: 100066
+    second: CATRigRArmDigit11
+  - first:
+      1: 100068
+    second: CATRigRArmDigit12
+  - first:
+      1: 100070
+    second: CATRigRArmDigit13
+  - first:
+      1: 100072
+    second: CATRigRArmDigit21
+  - first:
+      1: 100074
+    second: CATRigRArmDigit22
+  - first:
+      1: 100076
+    second: CATRigRArmDigit23
+  - first:
+      1: 100078
+    second: CATRigRArmDigit31
+  - first:
+      1: 100080
+    second: CATRigRArmDigit32
+  - first:
+      1: 100082
+    second: CATRigRArmDigit33
+  - first:
+      1: 100084
+    second: CATRigRArmDigit41
+  - first:
+      1: 100086
+    second: CATRigRArmDigit42
+  - first:
+      1: 100088
+    second: CATRigRArmDigit43
+  - first:
+      1: 100090
+    second: CATRigRArmDigit51
+  - first:
+      1: 100092
+    second: CATRigRArmDigit52
+  - first:
+      1: 100094
+    second: CATRigRArmDigit53
+  - first:
+      1: 100096
+    second: CATRigRArmPalm
+  - first:
+      1: 100098
+    second: CATRigRLeg1
+  - first:
+      1: 100100
+    second: CATRigRLeg2
+  - first:
+      1: 100102
+    second: CATRigRLegAnkle
+  - first:
+      1: 100104
+    second: CATRigRLegDigit11
+  - first:
+      1: 100106
+    second: CATRigRLegPlatform
+  - first:
+      1: 100108
+    second: CATRigSpine
+  - first:
+      1: 100110
+    second: CATRigSpine1
+  - first:
+      1: 100112
+    second: CATRigSpine2
+  - first:
+      1: 100114
+    second: Character001
+  - first:
+      1: 100116
+    second: Character002
+  - first:
+      1: 100118
+    second: z 3 body LOD0
+  - first:
+      1: 100120
+    second: z 3 body LOD1
+  - first:
+      1: 100122
+    second: z 3 body LOD2
+  - first:
+      1: 100124
+    second: z3 boots LOD0
+  - first:
+      1: 100126
+    second: z3 boots LOD1
+  - first:
+      1: 100128
+    second: z3 boots LOD2
+  - first:
+      1: 100130
+    second: z3 clothes LOD0
+  - first:
+      1: 100132
+    second: z3 clothes LOD1
+  - first:
+      1: 100134
+    second: z3 clothes LOD2
+  - first:
+      1: 100136
+    second: z3 knitted hat LOD0
+  - first:
+      1: 100138
+    second: z3 knitted hat LOD1
+  - first:
+      1: 100140
+    second: z3 knitted hat LOD2
+  - first:
+      4: 400000
+    second: //RootNode
+  - first:
+      4: 400002
+    second: CATRigHub001
+  - first:
+      4: 400004
+    second: CATRigHub002
+  - first:
+      4: 400006
+    second: CATRigHub003
+  - first:
+      4: 400008
+    second: CATRigHub003Bone001
+  - first:
+      4: 400010
+    second: CATRigHub003Bone002
+  - first:
+      4: 400012
+    second: CATRigLArm1
+  - first:
+      4: 400014
+    second: CATRigLArm2
+  - first:
+      4: 400016
+    second: CATRigLArmCollarbone
+  - first:
+      4: 400018
+    second: CATRigLArmDigit11
+  - first:
+      4: 400020
+    second: CATRigLArmDigit12
+  - first:
+      4: 400022
+    second: CATRigLArmDigit13
+  - first:
+      4: 400024
+    second: CATRigLArmDigit21
+  - first:
+      4: 400026
+    second: CATRigLArmDigit22
+  - first:
+      4: 400028
+    second: CATRigLArmDigit23
+  - first:
+      4: 400030
+    second: CATRigLArmDigit31
+  - first:
+      4: 400032
+    second: CATRigLArmDigit32
+  - first:
+      4: 400034
+    second: CATRigLArmDigit33
+  - first:
+      4: 400036
+    second: CATRigLArmDigit41
+  - first:
+      4: 400038
+    second: CATRigLArmDigit42
+  - first:
+      4: 400040
+    second: CATRigLArmDigit43
+  - first:
+      4: 400042
+    second: CATRigLArmDigit51
+  - first:
+      4: 400044
+    second: CATRigLArmDigit52
+  - first:
+      4: 400046
+    second: CATRigLArmDigit53
+  - first:
+      4: 400048
+    second: CATRigLArmPalm
+  - first:
+      4: 400050
+    second: CATRigLLeg1
+  - first:
+      4: 400052
+    second: CATRigLLeg2
+  - first:
+      4: 400054
+    second: CATRigLLegAnkle
+  - first:
+      4: 400056
+    second: CATRigLLegDigit11
+  - first:
+      4: 400058
+    second: CATRigLLegPlatform
+  - first:
+      4: 400060
+    second: CATRigRArm1
+  - first:
+      4: 400062
+    second: CATRigRArm2
+  - first:
+      4: 400064
+    second: CATRigRArmCollarbone
+  - first:
+      4: 400066
+    second: CATRigRArmDigit11
+  - first:
+      4: 400068
+    second: CATRigRArmDigit12
+  - first:
+      4: 400070
+    second: CATRigRArmDigit13
+  - first:
+      4: 400072
+    second: CATRigRArmDigit21
+  - first:
+      4: 400074
+    second: CATRigRArmDigit22
+  - first:
+      4: 400076
+    second: CATRigRArmDigit23
+  - first:
+      4: 400078
+    second: CATRigRArmDigit31
+  - first:
+      4: 400080
+    second: CATRigRArmDigit32
+  - first:
+      4: 400082
+    second: CATRigRArmDigit33
+  - first:
+      4: 400084
+    second: CATRigRArmDigit41
+  - first:
+      4: 400086
+    second: CATRigRArmDigit42
+  - first:
+      4: 400088
+    second: CATRigRArmDigit43
+  - first:
+      4: 400090
+    second: CATRigRArmDigit51
+  - first:
+      4: 400092
+    second: CATRigRArmDigit52
+  - first:
+      4: 400094
+    second: CATRigRArmDigit53
+  - first:
+      4: 400096
+    second: CATRigRArmPalm
+  - first:
+      4: 400098
+    second: CATRigRLeg1
+  - first:
+      4: 400100
+    second: CATRigRLeg2
+  - first:
+      4: 400102
+    second: CATRigRLegAnkle
+  - first:
+      4: 400104
+    second: CATRigRLegDigit11
+  - first:
+      4: 400106
+    second: CATRigRLegPlatform
+  - first:
+      4: 400108
+    second: CATRigSpine
+  - first:
+      4: 400110
+    second: CATRigSpine1
+  - first:
+      4: 400112
+    second: CATRigSpine2
+  - first:
+      4: 400114
+    second: Character001
+  - first:
+      4: 400116
+    second: Character002
+  - first:
+      4: 400118
+    second: z 3 body LOD0
+  - first:
+      4: 400120
+    second: z 3 body LOD1
+  - first:
+      4: 400122
+    second: z 3 body LOD2
+  - first:
+      4: 400124
+    second: z3 boots LOD0
+  - first:
+      4: 400126
+    second: z3 boots LOD1
+  - first:
+      4: 400128
+    second: z3 boots LOD2
+  - first:
+      4: 400130
+    second: z3 clothes LOD0
+  - first:
+      4: 400132
+    second: z3 clothes LOD1
+  - first:
+      4: 400134
+    second: z3 clothes LOD2
+  - first:
+      4: 400136
+    second: z3 knitted hat LOD0
+  - first:
+      4: 400138
+    second: z3 knitted hat LOD1
+  - first:
+      4: 400140
+    second: z3 knitted hat LOD2
+  - first:
+      21: 2100000
+    second: z3 clothes
+  - first:
+      21: 2100002
+    second: z3 body
+  - first:
+      43: 4300000
+    second: z3 boots LOD0
+  - first:
+      43: 4300002
+    second: z3 clothes LOD0
+  - first:
+      43: 4300004
+    second: z3 knitted hat LOD0
+  - first:
+      43: 4300006
+    second: z 3 body LOD0
+  - first:
+      43: 4300008
+    second: z3 clothes LOD1
+  - first:
+      43: 4300010
+    second: z3 clothes LOD2
+  - first:
+      43: 4300012
+    second: z3 boots LOD1
+  - first:
+      43: 4300014
+    second: z3 boots LOD2
+  - first:
+      43: 4300016
+    second: z3 knitted hat LOD1
+  - first:
+      43: 4300018
+    second: z3 knitted hat LOD2
+  - first:
+      43: 4300020
+    second: z 3 body LOD1
+  - first:
+      43: 4300022
+    second: z 3 body LOD2
+  - first:
+      74: 7400000
+    second: Take 001
+  - first:
+      95: 9500000
+    second: //RootNode
+  - first:
+      137: 13700000
+    second: z 3 body LOD0
+  - first:
+      137: 13700002
+    second: z 3 body LOD1
+  - first:
+      137: 13700004
+    second: z 3 body LOD2
+  - first:
+      137: 13700006
+    second: z3 boots LOD0
+  - first:
+      137: 13700008
+    second: z3 boots LOD1
+  - first:
+      137: 13700010
+    second: z3 boots LOD2
+  - first:
+      137: 13700012
+    second: z3 clothes LOD0
+  - first:
+      137: 13700014
+    second: z3 clothes LOD1
+  - first:
+      137: 13700016
+    second: z3 clothes LOD2
+  - first:
+      137: 13700018
+    second: z3 knitted hat LOD0
+  - first:
+      137: 13700020
+    second: z3 knitted hat LOD1
+  - first:
+      137: 13700022
+    second: z3 knitted hat LOD2
   externalObjects:
   - first:
       type: UnityEngine:Material
@@ -185,15 +525,16 @@ ModelImporter:
       name: z3 clothes
     second: {fileID: 2100000, guid: 154160be4e732c44b900a4276bcd4279, type: 2}
   materials:
-    importMaterials: 1
-    materialName: 0
+    materialImportMode: 2
+    materialName: 1
     materialSearch: 1
-    materialLocation: 1
+    materialLocation: 0
   animations:
     legacyGenerateAnimations: 4
     bakeSimulation: 0
     resampleCurves: 1
     optimizeGameObjects: 0
+    removeConstantScaleCurves: 0
     motionNodeName: 
     rigImportErrors: 
     rigImportWarnings: 
@@ -202,6 +543,7 @@ ModelImporter:
     animationRetargetingWarnings: 
     animationDoRetargetingWarnings: 0
     importAnimatedCustomProperties: 0
+    importConstraints: 0
     animationCompression: 3
     animationRotationError: 0.5
     animationPositionError: 0.5
@@ -216,32 +558,49 @@ ModelImporter:
     globalScale: 1
     meshCompression: 0
     addColliders: 0
+    useSRGBMaterialColor: 1
+    sortHierarchyByName: 1
+    importPhysicalCameras: 0
     importVisibility: 1
     importBlendShapes: 1
     importCameras: 1
     importLights: 1
+    nodeNameCollisionStrategy: 0
+    fileIdsGeneration: 1
     swapUVChannels: 0
     generateSecondaryUV: 0
     useFileUnits: 1
-    optimizeMeshForGPU: 1
     keepQuads: 0
     weldVertices: 1
+    bakeAxisConversion: 0
     preserveHierarchy: 0
+    skinWeightsMode: 0
+    maxBonesPerVertex: 4
+    minBoneWeight: 0.001
+    optimizeBones: 1
+    meshOptimizationFlags: -1
     indexFormat: 0
     secondaryUVAngleDistortion: 8
     secondaryUVAreaDistortion: 15.000001
     secondaryUVHardAngle: 88
+    secondaryUVMarginMethod: 0
+    secondaryUVMinLightmapResolution: 40
+    secondaryUVMinObjectScale: 1
     secondaryUVPackMargin: 4
     useFileScale: 1
+    strictVertexDataChecks: 0
   tangentSpace:
     normalSmoothAngle: 60
     normalImportMode: 0
     tangentImportMode: 3
     normalCalculationMode: 4
+    legacyComputeAllNormalsFromSmoothingGroupsWhenMeshHasBlendShapes: 1
+    blendShapeNormalImportMode: 1
+    normalSmoothingSource: 0
+  referencedClips: []
   importAnimation: 0
-  copyAvatar: 0
   humanDescription:
-    serializedVersion: 2
+    serializedVersion: 3
     human:
     - boneName: CATRigHub001
       humanName: Hips
@@ -769,14 +1128,12 @@ ModelImporter:
     - name: CATRigLArmDigit12
       parentName: CATRigLArmDigit11
       position: {x: -0.039817333, y: 0.000000059604645, z: 0}
-      rotation: {x: -0.000000037252885, y: 0.0000000037252625, z: -0.00000005960466,
-        w: 1}
+      rotation: {x: -0.000000037252885, y: 0.0000000037252625, z: -0.00000005960466, w: 1}
       scale: {x: 0.99999976, y: 0.99999595, z: 1.0000043}
     - name: CATRigLArmDigit13
       parentName: CATRigLArmDigit12
       position: {x: -0.032525837, y: 0, z: 0}
-      rotation: {x: -0.000000086612225, y: -0.0000000139696645, z: 0.000000029802333,
-        w: 1}
+      rotation: {x: -0.000000086612225, y: -0.0000000139696645, z: 0.000000029802333, w: 1}
       scale: {x: 0.99999964, y: 0.9999958, z: 1.0000045}
     - name: CATRigLArmDigit21
       parentName: CATRigLArmPalm
@@ -801,8 +1158,7 @@ ModelImporter:
     - name: CATRigLArmDigit32
       parentName: CATRigLArmDigit31
       position: {x: -0.04491484, y: 0, z: -5.820766e-11}
-      rotation: {x: -0.000000003725352, y: -0.0000000037252683, z: -2.3592364e-16,
-        w: 1}
+      rotation: {x: -0.000000003725352, y: -0.0000000037252683, z: -2.3592364e-16, w: 1}
       scale: {x: 0.99999505, y: 1.0000066, z: 0.9999983}
     - name: CATRigLArmDigit33
       parentName: CATRigLArmDigit32
@@ -822,8 +1178,7 @@ ModelImporter:
     - name: CATRigLArmDigit43
       parentName: CATRigLArmDigit42
       position: {x: -0.031389236, y: 0, z: 0}
-      rotation: {x: 0.000000008055202, y: -0.00000037599858, z: -0.000000037251628,
-        w: 1}
+      rotation: {x: 0.000000008055202, y: -0.00000037599858, z: -0.000000037251628, w: 1}
       scale: {x: 0.999995, y: 1.0000063, z: 0.99999815}
     - name: CATRigLArmDigit51
       parentName: CATRigLArmPalm
@@ -833,14 +1188,12 @@ ModelImporter:
     - name: CATRigLArmDigit52
       parentName: CATRigLArmDigit51
       position: {x: -0.03387904, y: 0, z: 0}
-      rotation: {x: 0.000000026077466, y: -0.000000029569321, z: 0.0000000149008255,
-        w: 1}
+      rotation: {x: 0.000000026077466, y: -0.000000029569321, z: 0.0000000149008255, w: 1}
       scale: {x: 0.9999951, y: 1.0000066, z: 0.9999983}
     - name: CATRigLArmDigit53
       parentName: CATRigLArmDigit52
       position: {x: -0.01918596, y: 0, z: 0}
-      rotation: {x: 0.00000003725383, y: 0.000000026076801, z: -0.000000002882156,
-        w: 1}
+      rotation: {x: 0.00000003725383, y: 0.000000026076801, z: -0.000000002882156, w: 1}
       scale: {x: 0.999995, y: 1.0000064, z: 0.9999982}
     - name: CATRigRArmCollarbone
       parentName: CATRigHub002
@@ -855,8 +1208,7 @@ ModelImporter:
     - name: CATRigRArm2
       parentName: CATRigRArm1
       position: {x: -0.29731965, y: -9.313226e-10, z: 0}
-      rotation: {x: 0.000000014901155, y: 0.00000010617075, z: 0.000000059604616,
-        w: 1}
+      rotation: {x: 0.000000014901155, y: 0.00000010617075, z: 0.000000059604616, w: 1}
       scale: {x: 1, y: 1, z: 1}
     - name: CATRigRArmPalm
       parentName: CATRigRArm2
@@ -871,14 +1223,12 @@ ModelImporter:
     - name: CATRigRArmDigit12
       parentName: CATRigRArmDigit11
       position: {x: -0.043599725, y: 0.000000059604645, z: 0}
-      rotation: {x: -0.000000020489052, y: -0.000000028346953, z: 0.000000149012,
-        w: 1}
+      rotation: {x: -0.000000020489052, y: -0.000000028346953, z: 0.000000149012, w: 1}
       scale: {x: 0.9999974, y: 1.0000105, z: 0.99999243}
     - name: CATRigRArmDigit13
       parentName: CATRigRArmDigit12
       position: {x: -0.029511154, y: 0, z: 0}
-      rotation: {x: 0.000000016298406, y: -0.0000000055879323, z: -0.000000074506,
-        w: 1}
+      rotation: {x: 0.000000016298406, y: -0.0000000055879323, z: -0.000000074506, w: 1}
       scale: {x: 0.9999974, y: 1.0000104, z: 0.9999923}
     - name: CATRigRArmDigit21
       parentName: CATRigRArmPalm
@@ -893,8 +1243,7 @@ ModelImporter:
     - name: CATRigRArmDigit23
       parentName: CATRigRArmDigit22
       position: {x: -0.032371223, y: 0, z: 0}
-      rotation: {x: 0.00000007071257, y: -0.000000011874577, z: -0.00000002980257,
-        w: 1}
+      rotation: {x: 0.00000007071257, y: -0.000000011874577, z: -0.00000002980257, w: 1}
       scale: {x: 1.00001, y: 0.9999989, z: 0.9999902}
     - name: CATRigRArmDigit31
       parentName: CATRigRArmPalm
@@ -924,8 +1273,7 @@ ModelImporter:
     - name: CATRigRArmDigit43
       parentName: CATRigRArmDigit42
       position: {x: -0.03124404, y: 0, z: 0}
-      rotation: {x: 0.000000020368633, y: -0.000000025146887, z: -0.000000067057826,
-        w: 1}
+      rotation: {x: 0.000000020368633, y: -0.000000025146887, z: -0.000000067057826, w: 1}
       scale: {x: 1.00001, y: 0.99999917, z: 0.9999901}
     - name: CATRigRArmDigit51
       parentName: CATRigRArmPalm
@@ -1049,14 +1397,19 @@ ModelImporter:
     armStretch: 0.05
     legStretch: 0.05
     feetSpacing: 0
+    globalScale: 1
     rootMotionBoneName: 
-    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
     hasExtraRoot: 1
     skeletonHasParents: 1
   lastHumanDescriptionAvatarSource: {instanceID: 0}
+  autoGenerateAvatarMappingIfUnspecified: 1
   animationType: 3
   humanoidOversampling: 1
+  avatarSetup: 1
+  addHumanoidExtraRootOnlyWhenUsingAvatar: 0
+  importBlendShapeDeformPercent: 0
+  remapMaterialsIfMaterialImportModeIsNone: 1
   additionalBone: 0
   userData: 
   assetBundleName: 
